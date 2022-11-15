@@ -29,7 +29,7 @@
         update();
 
         function update() {
-            fetch('https://api.countapi.xyz/hit/drgalen/visit/?count=1').then(res => res.json()).then(res => {
+            fetch('https://api.countapi.xyz/hit/anyname/visit/?count=1').then(res => res.json()).then(res => {
                 countElement.innerHTML = res.value;
             })
         }
